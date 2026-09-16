@@ -1,0 +1,59 @@
+flutter_native_splash:
+   android: true
+   ios: true
+   web: false
+
+  #======================================================================
+
+  #! FOR ALL PLATFORM, except Android 12+:
+
+  # general color for all platform (except android 12+):
+  # see there only 2 lines in all parameters that marked as [required], so others
+  # remain optional. NOTE that if you specify the [required] color, then you cant
+  # use the [required] background_image in the next section. the reverse is true.
+  # select one, they cant work together.
+   color: "#202020"  ##====================================[REQUIRED]==========
+   color_android: "#202020"
+   color_ios: "#202020"
+   color_web: "#202020"
+
+
+  # general image for all platform (except android 12+):
+  # allows you to specify an image used in the splash screen. It must be a
+  # png file and should be sized for 4x pixel density.
+   image:               assets/images/splash.png
+   image_android:       assets/images/splash.png
+   image_ios:           assets/images/splash.png
+   image_web:           assets/images/splash.png
+
+  # image alignment (default center if not specified, or speccified something else):
+   android_gravity: center
+   ios_content_mode: center
+   web_image_mode: center
+
+
+   branding:     assets/images/branding.png
+   branding_android:      assets/images/branding.png
+   branding_ios:          assets/images/branding.png
+   branding_web:          assets/images/branding.png
+
+   branding_mode: bottom                # default bottom
+   branding_bottom_padding: 24          # default 0
+   branding_bottom_padding_android: 24  # default 0
+   branding_bottom_padding_ios: 24      # default 0
+
+
+  #! ANDROID 12+ configuration:
+   android_12:
+    # background color
+    color: "#202020"
+    image: assets/images/splash.png
+
+    # center-logo background color
+    icon_background_color: "#202020"
+
+
+    # branding:
+    # The branding image dimensions must be 800x320 px.
+    branding:      assets/images/branding.png
+    #branding_dark: assets/dart_dark.png

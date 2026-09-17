@@ -19,6 +19,9 @@ class AppImages {
   static const String welcomeBoarding= 'assets/images/welcome.png';
   static const String sabhaHead= 'assets/images/sabhaHead.png';
   static const String sabhaShape= 'assets/images/sabhaShape.png';
+  static const String maskGroup= 'assets/images/Mask group.png';
+  static const String maskGroup2= 'assets/icons/Mask group2.png';
+
 
 
   //icons
@@ -27,5 +30,8 @@ class AppImages {
   static const String radioIcon = 'assets/icons/icon_radio.png';
   static const String sebhaIcon = 'assets/icons/icon_sebha.png';
   static const String timeIcon = 'assets/icons/icon_time.png';
+  static const String playIcon = 'assets/icons/play.png';
+  static const String volumeHigh = 'assets/icons/volume_high.png';
+  static const String pause = 'assets/icons/Pause.png';
 
 }

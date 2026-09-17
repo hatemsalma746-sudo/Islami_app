@@ -7,7 +7,7 @@ class RadioTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Placeholder(
-      color: AppColors.brownColor ,
+      color: AppColors.greyColor,
     );
   }
 }

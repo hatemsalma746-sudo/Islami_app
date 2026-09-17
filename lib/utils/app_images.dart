@@ -17,6 +17,9 @@ class AppImages {
   static const String sura = 'assets/images/sura.png';
   static const String tab1 = 'assets/images/tab1.png';
   static const String welcomeBoarding= 'assets/images/welcome.png';
+  static const String sabhaHead= 'assets/images/sabhaHead.png';
+  static const String sabhaShape= 'assets/images/sabhaShape.png';
+
 
   //icons
   static const String quranIcon = 'assets/icons/icon_quran.png';

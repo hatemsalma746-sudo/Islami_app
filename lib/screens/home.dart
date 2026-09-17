@@ -52,6 +52,7 @@ class _HomeState extends State<Home> {
                 builtBottomNavigationBarItem(icon: AppImages.radioIcon, label: "Radio",index: 3),
                 builtBottomNavigationBarItem(icon: AppImages.timeIcon, label: "Time",index: 4)
               ] ),
+          body: tabList[selectedIndex],
 
         )
       ]
